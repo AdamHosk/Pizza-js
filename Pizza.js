@@ -9,7 +9,7 @@ class Food{
         return this.sellingPrice - this.costToMake;
     }
 }
-
+ 
 class Pizza extends Food{
     constructor(name,sellingPrice,costToMake,crustType,sause,cheeseType,toppings,size){
         super(name,sellingPrice,costToMake)
